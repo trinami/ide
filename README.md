@@ -1,4 +1,4 @@
-# Install the Trinami "IDE" Environment on Arch Linux
+# Install the Trinami "IDE" on Arch Linux
 
 ```bash
 chmod +x INSTALLER.sh
