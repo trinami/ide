@@ -1,0 +1,8 @@
+[Unit]
+Description=Auto-update system and Flatpaks at boot
+
+[Service]
+ExecStart=/usr/local/bin/update-at-boot.sh
+
+[Install]
+WantedBy=multi-user.target
