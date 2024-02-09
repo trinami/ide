@@ -33,7 +33,7 @@ sudo usermod -aG wheel $USER
 
 
 #Install packages
-sudo pacman -S --noconfirm python jdk-openjdk go rust lua ruby git bash-completion zsh flatpak qemu-full xorg-xwayland keepassxc minicom nextcloud-client restic gedit vim gparted ghex android-tools mtpfs gvfs-mtp monero cmake autoconf gnupg seahorse python-pip astyle cmake gcc ninja openssl python-pytest python-pytest-xdist unzip libxslt doxygen graphviz valgrind veracrypt nodejs npm p7zip unp mono torbrowser-launcher monero-gui docker docker-compose gnupg pcsclite ccid hopenpgp-tools zsh k9s rsync
+sudo pacman -S --noconfirm python jdk-openjdk go rust lua ruby git bash-completion zsh flatpak qemu-full xorg-xwayland keepassxc minicom nextcloud-client restic gedit vim gparted ghex android-tools mtpfs gvfs-mtp monero cmake autoconf gnupg seahorse python-pip astyle cmake gcc ninja openssl python-pytest python-pytest-xdist unzip libxslt doxygen graphviz valgrind veracrypt nodejs npm p7zip unp mono torbrowser-launcher monero-gui docker docker-compose gnupg pcsclite ccid hopenpgp-tools zsh k9s rsync kubectl talosctl kustomize helm helm k9s
 
 sudo usermod -aG docker $USER
 
