@@ -49,8 +49,9 @@ sudo usermod -aG docker $USER
 sudo systemctl enable docker.service
 sudo systemctl start docker.service
 
-systemctl --user enable syncthing.service
-systemctl --user start syncthing.service
+sudo systemctl enable syncthing@user.service
+sudo systemctl start syncthing@user.service
+
 
 #Instal pips
 pip3 install cryptography --break-system-packages
